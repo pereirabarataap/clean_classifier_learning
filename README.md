@@ -1,3 +1,2 @@
-{{Smallcaps|Utada}} Hikaru
-
+[Small caps]{.smallcaps}.
 Text goes here
