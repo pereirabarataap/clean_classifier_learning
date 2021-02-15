@@ -10,7 +10,7 @@ To replicate our experiments, simply run the <code>run_me.ipynb</code> jupyter n
 A full run requires ~5Gb of free space for the different datasets and noise econfigurations being generated.</br>
 The time it takes to complete the run is circa 2 days on a 256-thread machine.
 
-### Dependencies
+#### Dependencies
 The experimental setup is implemented in Python3 within a conda environment, requiring the following installation snippets:
 * <code>pip install openml;</code>
 * <code>pip install xgboost;</code>
