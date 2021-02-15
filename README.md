@@ -17,11 +17,9 @@ The experimental setup is implemented in <code>Python3</code> within a <code>con
 * <code>conda install tqdm --y;</code>
 * <code>conda install numpy --y;</code>
 * <code>conda install pandas --y;</code>
-* <code>conda install plotly --y;</code>
 * <code>conda install nodejs --y;</code>
 * <code>conda install jupyter --y;</code>
 * <code>conda install seaborn --y;</code>
-* <code>conda install networkx --y;</code>
 * <code>conda install ipywidgets --y;</code>
 * <code>conda install jupyterlab --y;</code>
 * <code>conda install matplotlib --y;</code>
