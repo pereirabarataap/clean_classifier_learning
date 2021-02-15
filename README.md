@@ -6,12 +6,14 @@ It consists of learning a noise-resilient classifier through a log-odds sample w
 
 ### Experiments
 We empirically validate the performance of our method in a controlled scenario where noise is artificially injected into a diverse set of datasets.</br>
+The experimental setup is implemented in <code>Python3</code> within a <code>conda</code> environment.</br>
 To replicate our experiments, simply run the <code>run_me.ipynb</code> jupyter notebook.</br>
+
+#### Requirements (Memory and Time)
 A full run requires ~10Gb of free space for the different datasets and noise configurations being generated, as well as all the results.</br>
 The time it takes to complete the run is circa 2 days on a 256-thread machine.
 
-#### Dependencies
-The experimental setup is implemented in <code>Python3</code> within a <code>conda</code> environment, requiring the following installation snippets:
+#### Dependencies (Packages)
 * <code>pip install openml;</code>
 * <code>pip install xgboost;</code>
 * <code>conda install tqdm --y;</code>
