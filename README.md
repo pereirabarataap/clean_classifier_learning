@@ -15,19 +15,36 @@ Results over ten datasets show that our approach consistently outperforms the st
 ## Dependencies
 
 <code>pip install xgboost;</code>
-conda install tqdm --y;
-conda install numpy --y;
-conda install pandas --y;
-conda install plotly --y;
-conda install nodejs --y;
-conda install jupyter --y;
-conda install seaborn --y;
-conda install networkx --y;
-conda install ipywidgets --y;
-conda install jupyterlab --y;
-conda install matplotlib --y;
-conda install scikit-learn --y;
-jupyter nbextension enable --py widgetsnbextension;
-jupyter labextension install jupyterlab-plotly
-jupyter labextension install @jupyter-widgets/jupyterlab-manager;
-jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget;
+
+<code>conda install tqdm --y;</code>
+
+<code>conda install numpy --y;</code>
+
+<code>conda install pandas --y;</code>
+
+<code>conda install plotly --y;</code>
+
+<code>conda install nodejs --y;</code>
+
+<code>conda install jupyter --y;</code>
+
+<code>conda install seaborn --y;</code>
+
+<code>conda install networkx --y;</code>
+
+<code>conda install ipywidgets --y;</code>
+
+<code>conda install jupyterlab --y;</code>
+
+<code>conda install matplotlib --y;</code>
+
+<code>conda install scikit-learn --y;</code>
+
+<code>jupyter nbextension enable --py widgetsnbextension;</code>
+
+<code>jupyter labextension install jupyterlab-plotly</code>
+
+<code>jupyter labextension install @jupyter-widgets/jupyterlab-manager;</code>
+
+<code>jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget;</code>
+
