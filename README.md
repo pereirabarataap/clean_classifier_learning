@@ -1,11 +1,11 @@
 # DENOISE
 
-Denoise is a unified method to perform classifier learning from noisy samples that leverages noise detection and sample weighting techniques.
-It consists of learning a noise-resilient classifier through a log-odds sample weighting strategy, in which the weights are derived from the noisy instances in a label noise detection step.
+Denoise is a unified method to perform classifier learning from noisy samples that leverages noise detection and sample weighting techniques.</br>
+It consists of learning a noise-resilient classifier through a log-odds sample weighting strategy, in which the weights are derived from the noisy instances in a label noise detection step.</br>
 We empirically validate the performance of our method in a controlled scenario where noise is artificially injected into a diverse set of datasets (see Experiments folder).
 
 ## Dependencies
-All experimental setup is implemented in Python3 and needs the following installation snippets to run properly:
+The experimental setup is implemented in Python3 and requires the following installation snippets:
 * <code>pip install openml;</code>
 * <code>pip install xgboost;</code>
 * <code>conda install tqdm --y;</code>
