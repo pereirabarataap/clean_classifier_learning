@@ -2,7 +2,11 @@
 
 Denoise is a unified method to perform classifier learning from noisy samples that leverages noise detection and sample weighting techniques.</br>
 It consists of learning a noise-resilient classifier through a log-odds sample weighting strategy, in which the weights are derived from the noisy instances in a label noise detection step.</br>
-We empirically validate the performance of our method in a controlled scenario where noise is artificially injected into a diverse set of datasets (see Experiments folder).
+We empirically validate the performance of our method in a controlled scenario where noise is artificially injected into a diverse set of datasets.<\br>
+<\br>
+To replicate our expeirments, simply run the <code>run_me.ipynb</code> jupyter notebook.<\br>
+A full run requires ~5Gb of free space for the different datasets and noise econfigurations being generated.<\br>
+The time it takes to complete the run is circa 2 days in a 256-thread machine.
 
 ### Dependencies
 The experimental setup is implemented in Python3 within a conda environment, requiring the following installation snippets:
