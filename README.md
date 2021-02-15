@@ -10,3 +10,24 @@ The proposed approach consists of learning a noise-resilient classifier through 
 We empirically validate the performance of our method in a controlled scenario where noise is artificially injected into a diverse set of datasets.
 Different parameterised configurations of label noise and feature noise proportions are extensively tested against current state-of-the-art methods from the fields of classifier learning under noisy conditions and label noise detection.
 Results over ten datasets show that our approach consistently outperforms the state-of-the-art with respect to both learning from noisy data and noise detection.
+
+
+## Dependencies
+
+<code>pip install xgboost;</code>
+conda install tqdm --y;
+conda install numpy --y;
+conda install pandas --y;
+conda install plotly --y;
+conda install nodejs --y;
+conda install jupyter --y;
+conda install seaborn --y;
+conda install networkx --y;
+conda install ipywidgets --y;
+conda install jupyterlab --y;
+conda install matplotlib --y;
+conda install scikit-learn --y;
+jupyter nbextension enable --py widgetsnbextension;
+jupyter labextension install jupyterlab-plotly
+jupyter labextension install @jupyter-widgets/jupyterlab-manager;
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget;
