@@ -15,7 +15,7 @@ The time it takes to complete the run is circa 2 days on a 256-thread machine.
 
 ### Dependencies (Packages)
 * <code>pip install openml;</code>
-* <code>pip install xgboost;</code>
+* <code>pip install xgboost==1.2;</code> 
 * <code>conda install tqdm --y;</code>
 * <code>conda install numpy --y;</code>
 * <code>conda install pandas --y;</code>
