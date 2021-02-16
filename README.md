@@ -10,8 +10,8 @@ The experimental setup is implemented in <code>Python3</code> within a <code>con
 To replicate our experiments, simply run the <code>run_me.ipynb</code> jupyter notebook.</br>
 
 ### Requirements (Memory and Time)
-A full run requires ~15Gb of free space for the different datasets and noise configurations being generated, as well as all the results.</br>
-The time it takes to complete the run is circa 12 hours on a 256-thread machine.
+A full run requires ~7Gb of free space for the different datasets and noise configurations being generated, as well as all the results.</br>
+The time it takes to complete the run is circa 7 hours on a 256-thread machine.
 
 ### Dependencies (Packages)
 * <code>pip install openml;</code>
